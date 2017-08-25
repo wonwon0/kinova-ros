@@ -3,14 +3,10 @@
 
 import roslib; roslib.load_manifest('kinova_demo')
 import rospy
-
 import sys
-
 import math
-
 import actionlib
 import kinova_msgs.msg
-
 import argparse
 
 

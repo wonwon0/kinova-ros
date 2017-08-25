@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(j2n6s300_ikfast)
 
+set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")
+
 find_package(catkin REQUIRED COMPONENTS
   moveit_core
   pluginlib

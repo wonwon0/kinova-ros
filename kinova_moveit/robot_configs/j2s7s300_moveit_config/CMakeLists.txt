@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(j2s7s300_moveit_config)
-
+set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")
 find_package(catkin REQUIRED)
 
 catkin_package()
